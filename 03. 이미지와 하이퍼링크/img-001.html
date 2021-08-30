@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추천 관광지</title>
+    <style>
+        @keyframes move{
+            from{
+                opacity: 0;
+                transform: translateX(0);
+            } to{
+                opacity: 1;
+                transform: translateX(100);
+            }
+        }
+        img{
+            animation-name: move;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>사려니 숲길</h1>
+    <img src="https://ssl.pstatic.net/tveta/libs/1346/1346627/bf0a47df946eeac1ee3d_20210826165219121.jpg" alt="사려니 숲길 사진">
+    <img src="images/road.jpg" width="700" height="300" alt="사려니 숲길 작은사진">
+</body>
+</html>
