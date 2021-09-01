@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 넘침 조심</title>
+    <style>
+     .content{
+         border: 1px solid #ccc;
+         width: 300px;
+         white-space: nowrap; /* 줄바꿈 없음*/
+         overflow: hidden; /* 넘치는 부분 감춤*/
+         text-overflow: ellipsis; /* 텍스트 넘치면 말줄임표로 대체*/
+     }
+     .content:hover{
+         overflow: visible; /* 넘치는 부분 보여줌*/
+     }
+    </style>
+</head>
+
+<body>
+    <h1>텍스트 정렬</h1>
+    <p class="content">Integer elementum massa ar nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <p class="small-line">
+        Integer elementum massa ar nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <p class="align-center">Integer elementum massa ar nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+    <p class="align-justify">
+        Integer elementum massa ar nulla placerat varius.
+        Suspendisse in libero risus, in interdum massa.
+        Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+        Nullam est eros, suscipit sed dictum quis, accumsan a ligula.
+    </p>
+</body>
+
+</html>
