@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선형 그라데이션</title>
+    <style>
+      div {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .grad1 {
+        background: #ccc;
+        background: repeating-radial-gradient(circle, white, #ccc 10%);
+      }
+
+      .grad2 {
+        background: #ccc;
+        background: repeating-radial-gradient(
+          circle,
+          white,
+          white 10%,
+          #ccc 10%,
+          #ccc 20%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li id="div1"></li>
+      <li id="div2"></li>
+      <li id="div3"></li>
+      <li id="div4"></li>
+    </ul>
+    <div class="grad1"></div>
+    <div class="grad2"></div>
+  </body>
+</html>

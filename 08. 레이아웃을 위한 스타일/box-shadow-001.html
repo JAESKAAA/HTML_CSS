@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border</title>
+    <style>
+      div {
+        width: 250px;
+        height: 300px;
+        margin: 20px;
+        display: inline-block;
+        border: 2px solid;
+        border-radius: 20px;
+      }
+      .bg {
+        box-shadow: 2px -2px 5px 0px black;
+      }
+      .bg1 {
+        box-shadow: 5px 5px 15px 5px gray;
+      }
+      .round1 {
+        border-top-left-radius: 100px 50px;
+      }
+      .round2 {
+        border-bottom-right-radius: 50% 30%;
+      }
+      .round3 {
+        border-top-right-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="bg1" id="bg"></div>
+    <div class="round1" id="bg1"></div>
+    <div class="round2" id="bg2"></div>
+    <div class="round3" id="bg2"></div>
+  </body>
+</html>

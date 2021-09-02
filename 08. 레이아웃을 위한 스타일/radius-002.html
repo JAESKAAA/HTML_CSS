@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border</title>
+    <style>
+      div {
+        width: 250px;
+        height: 300px;
+        margin: 20px;
+        display: inline-block;
+        border: 2px solid;
+        background: #ffd800;
+      }
+      .bg {
+        background: url(images/pic2.jpg) no-repeat;
+        background-size: cover;
+        border-radius: 70px 40px;
+      }
+      .bg1 {
+        background: url(images/pic2.jpg) no-repeat;
+        background-size: cover;
+        border-top-left-radius: 70px 40px;
+        border-top-right-radius: 20px 90px;
+        border-bottom-right-radius: 80px 30px;
+        border-bottom-left-radius: 50px 100px;
+      }
+      .round1 {
+        border-top-left-radius: 100px 50px;
+      }
+      .round2 {
+        border-bottom-right-radius: 50% 30%;
+      }
+      .round3 {
+        border-top-right-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="bg1" id="bg"></div>
+    <div class="round1" id="bg1"></div>
+    <div class="round2" id="bg2"></div>
+    <div class="round3" id="bg2"></div>
+  </body>
+</html>
